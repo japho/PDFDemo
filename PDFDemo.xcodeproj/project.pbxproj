@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561180FF219C095F0079A1D4 /* JFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561180FE219C095F0079A1D4 /* JFSearchViewController.m */; };
+		56118103219C09780079A1D4 /* JFSeachCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56118101219C09780079A1D4 /* JFSeachCell.m */; };
+		56118104219C09780079A1D4 /* JFSeachCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56118102219C09780079A1D4 /* JFSeachCell.xib */; };
+		56118106219C2A4A0079A1D4 /* japanese.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56118105219C2A4A0079A1D4 /* japanese.pdf */; };
 		5655DF33219965BC00239544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655DF32219965BC00239544 /* AppDelegate.m */; };
 		5655DF36219965BC00239544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655DF35219965BC00239544 /* ViewController.m */; };
 		5655DF39219965BC00239544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5655DF37219965BC00239544 /* Main.storyboard */; };
 		5655DF3B219965BD00239544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5655DF3A219965BD00239544 /* Assets.xcassets */; };
 		5655DF3E219965BD00239544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5655DF3C219965BD00239544 /* LaunchScreen.storyboard */; };
 		5655DF41219965BD00239544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655DF40219965BD00239544 /* main.m */; };
+		5655DF482199664700239544 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5655DF472199664700239544 /* sample.pdf */; };
+		5655DF4B21996D2A00239544 /* JFThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655DF4A21996D2A00239544 /* JFThumbnailViewController.m */; };
+		5655DF4E21996D4B00239544 /* JFThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655DF4D21996D4B00239544 /* JFThumbnailCell.m */; };
+		5655DF5021997FE400239544 /* swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5655DF4F21997FE400239544 /* swift.pdf */; };
+		56C76B7C219A724200BFBA30 /* JFOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C76B7B219A724200BFBA30 /* JFOutlineViewController.m */; };
+		56C76B85219AC2CF00BFBA30 /* JFOutlineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C76B83219AC2CF00BFBA30 /* JFOutlineCell.m */; };
+		56C76B86219AC2CF00BFBA30 /* JFOutlineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C76B84219AC2CF00BFBA30 /* JFOutlineCell.xib */; };
+		56C76B88219AC37300BFBA30 /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 56C76B87219AC37300BFBA30 /* arrow_down.png */; };
+		56C76B8A219AC37C00BFBA30 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 56C76B89219AC37C00BFBA30 /* arrow_right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		561180FD219C095F0079A1D4 /* JFSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFSearchViewController.h; sourceTree = "<group>"; };
+		561180FE219C095F0079A1D4 /* JFSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFSearchViewController.m; sourceTree = "<group>"; };
+		56118100219C09780079A1D4 /* JFSeachCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFSeachCell.h; sourceTree = "<group>"; };
+		56118101219C09780079A1D4 /* JFSeachCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFSeachCell.m; sourceTree = "<group>"; };
+		56118102219C09780079A1D4 /* JFSeachCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFSeachCell.xib; sourceTree = "<group>"; };
+		56118105219C2A4A0079A1D4 /* japanese.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = japanese.pdf; path = "../../../Downloads/BookReader-master/BookReader/japanese.pdf"; sourceTree = "<group>"; };
 		5655DF2E219965BC00239544 /* PDFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5655DF31219965BC00239544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5655DF32219965BC00239544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +45,19 @@
 		5655DF3D219965BD00239544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5655DF3F219965BD00239544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5655DF40219965BD00239544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5655DF472199664700239544 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
+		5655DF4921996D2A00239544 /* JFThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFThumbnailViewController.h; sourceTree = "<group>"; };
+		5655DF4A21996D2A00239544 /* JFThumbnailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFThumbnailViewController.m; sourceTree = "<group>"; };
+		5655DF4C21996D4B00239544 /* JFThumbnailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFThumbnailCell.h; sourceTree = "<group>"; };
+		5655DF4D21996D4B00239544 /* JFThumbnailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFThumbnailCell.m; sourceTree = "<group>"; };
+		5655DF4F21997FE400239544 /* swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = swift.pdf; sourceTree = "<group>"; };
+		56C76B7A219A724200BFBA30 /* JFOutlineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFOutlineViewController.h; sourceTree = "<group>"; };
+		56C76B7B219A724200BFBA30 /* JFOutlineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFOutlineViewController.m; sourceTree = "<group>"; };
+		56C76B82219AC2CF00BFBA30 /* JFOutlineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFOutlineCell.h; sourceTree = "<group>"; };
+		56C76B83219AC2CF00BFBA30 /* JFOutlineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFOutlineCell.m; sourceTree = "<group>"; };
+		56C76B84219AC2CF00BFBA30 /* JFOutlineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFOutlineCell.xib; sourceTree = "<group>"; };
+		56C76B87219AC37300BFBA30 /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
+		56C76B89219AC37C00BFBA30 /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +94,30 @@
 				5655DF32219965BC00239544 /* AppDelegate.m */,
 				5655DF34219965BC00239544 /* ViewController.h */,
 				5655DF35219965BC00239544 /* ViewController.m */,
+				5655DF4921996D2A00239544 /* JFThumbnailViewController.h */,
+				5655DF4A21996D2A00239544 /* JFThumbnailViewController.m */,
+				5655DF4C21996D4B00239544 /* JFThumbnailCell.h */,
+				5655DF4D21996D4B00239544 /* JFThumbnailCell.m */,
+				56C76B7A219A724200BFBA30 /* JFOutlineViewController.h */,
+				56C76B7B219A724200BFBA30 /* JFOutlineViewController.m */,
+				56C76B82219AC2CF00BFBA30 /* JFOutlineCell.h */,
+				56C76B83219AC2CF00BFBA30 /* JFOutlineCell.m */,
+				56C76B84219AC2CF00BFBA30 /* JFOutlineCell.xib */,
+				561180FD219C095F0079A1D4 /* JFSearchViewController.h */,
+				561180FE219C095F0079A1D4 /* JFSearchViewController.m */,
+				56118100219C09780079A1D4 /* JFSeachCell.h */,
+				56118101219C09780079A1D4 /* JFSeachCell.m */,
+				56118102219C09780079A1D4 /* JFSeachCell.xib */,
 				5655DF37219965BC00239544 /* Main.storyboard */,
 				5655DF3A219965BD00239544 /* Assets.xcassets */,
 				5655DF3C219965BD00239544 /* LaunchScreen.storyboard */,
 				5655DF3F219965BD00239544 /* Info.plist */,
 				5655DF40219965BD00239544 /* main.m */,
+				56118105219C2A4A0079A1D4 /* japanese.pdf */,
+				5655DF472199664700239544 /* sample.pdf */,
+				5655DF4F21997FE400239544 /* swift.pdf */,
+				56C76B87219AC37300BFBA30 /* arrow_down.png */,
+				56C76B89219AC37C00BFBA30 /* arrow_right.png */,
 			);
 			path = PDFDemo;
 			sourceTree = "<group>";
@@ -128,8 +179,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56118104219C09780079A1D4 /* JFSeachCell.xib in Resources */,
+				5655DF482199664700239544 /* sample.pdf in Resources */,
 				5655DF3E219965BD00239544 /* LaunchScreen.storyboard in Resources */,
+				56C76B8A219AC37C00BFBA30 /* arrow_right.png in Resources */,
+				56C76B88219AC37300BFBA30 /* arrow_down.png in Resources */,
+				56C76B86219AC2CF00BFBA30 /* JFOutlineCell.xib in Resources */,
+				5655DF5021997FE400239544 /* swift.pdf in Resources */,
 				5655DF3B219965BD00239544 /* Assets.xcassets in Resources */,
+				56118106219C2A4A0079A1D4 /* japanese.pdf in Resources */,
 				5655DF39219965BC00239544 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561180FF219C095F0079A1D4 /* JFSearchViewController.m in Sources */,
 				5655DF36219965BC00239544 /* ViewController.m in Sources */,
+				5655DF4B21996D2A00239544 /* JFThumbnailViewController.m in Sources */,
 				5655DF41219965BD00239544 /* main.m in Sources */,
+				56C76B7C219A724200BFBA30 /* JFOutlineViewController.m in Sources */,
+				56C76B85219AC2CF00BFBA30 /* JFOutlineCell.m in Sources */,
+				5655DF4E21996D4B00239544 /* JFThumbnailCell.m in Sources */,
+				56118103219C09780079A1D4 /* JFSeachCell.m in Sources */,
 				5655DF33219965BC00239544 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4KZYPST24;
 				INFOPLIST_FILE = PDFDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4KZYPST24;
 				INFOPLIST_FILE = PDFDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
